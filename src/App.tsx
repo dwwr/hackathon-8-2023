@@ -48,12 +48,12 @@ const App: React.FC = () => {
                 text={{
                   value: row.a1,
                   align: 'center',
-                  color: 'black',
-                  width: 2,
+                  color: 'red',
+                  width: 3,
                 }}
                 position={{
                   x,
-                  y: y - 0.5,
+                  y: y - 0.25,
                   z: -5,
                 }}
               />
